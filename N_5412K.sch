@@ -7634,8 +7634,8 @@ Source: www.kingbright.com</description>
 <instance part="GDL51R" gate="G$1" x="584.2" y="-142.24" rot="R270"/>
 <instance part="GTP59" gate="G$1" x="-154.94" y="287.02" rot="R180"/>
 <instance part="GTR-20" gate="G$1" x="515.62" y="513.08" rot="R90"/>
-<instance part="PITCH_TRIM" gate="G$1" x="-474.98" y="86.36"/>
-<instance part="POSI-STROBE" gate="G$1" x="-502.92" y="104.14"/>
+<instance part="PITCH_TRIM" gate="G$1" x="-584.2" y="86.36"/>
+<instance part="POSI-STROBE" gate="G$1" x="-612.14" y="104.14"/>
 <instance part="U$11" gate="G$1" x="-454.66" y="167.64" rot="R180"/>
 <instance part="MASTER_CONTACTOR2" gate="G$1" x="-167.64" y="200.66"/>
 <instance part="POS/STROBE" gate="BEF1" x="657.86" y="256.54" rot="MR90"/>
@@ -7675,11 +7675,11 @@ Source: www.kingbright.com</description>
 </bus>
 <bus name="TAIL_STROBE">
 <segment>
-<wire x1="-472.44" y1="109.22" x2="-378.46" y2="109.22" width="0.762" layer="92"/>
+<wire x1="-581.66" y1="109.22" x2="-378.46" y2="109.22" width="0.762" layer="92"/>
 <wire x1="-378.46" y1="109.22" x2="-378.46" y2="25.4" width="0.762" layer="92"/>
 <wire x1="-378.46" y1="25.4" x2="-81.28" y2="25.4" width="0.762" layer="92"/>
 <label x="-115.824" y="26.416" size="1.778" layer="95"/>
-<label x="-471.678" y="109.982" size="1.778" layer="95"/>
+<label x="-580.898" y="109.982" size="1.778" layer="95"/>
 <wire x1="-81.28" y1="25.4" x2="-81.28" y2="-162.56" width="0.762" layer="92"/>
 <wire x1="-81.28" y1="-162.56" x2="414.02" y2="-162.56" width="0.762" layer="92"/>
 <wire x1="414.02" y1="-162.56" x2="414.02" y2="-154.94" width="0.762" layer="92"/>
@@ -7689,16 +7689,16 @@ Source: www.kingbright.com</description>
 </bus>
 <bus name="PITCH_TRIM1">
 <segment>
-<wire x1="-449.58" y1="93.98" x2="-274.32" y2="93.98" width="0.762" layer="92"/>
-<label x="-431.8" y="96.52" size="1.778" layer="95" rot="R180"/>
+<wire x1="-558.8" y1="93.98" x2="-274.32" y2="93.98" width="0.762" layer="92"/>
+<label x="-541.02" y="96.52" size="1.778" layer="95" rot="R180"/>
 </segment>
 </bus>
 <bus name="PITCH_DATA">
 <segment>
-<wire x1="-449.58" y1="86.36" x2="-383.54" y2="86.36" width="0.762" layer="92"/>
+<wire x1="-558.8" y1="86.36" x2="-383.54" y2="86.36" width="0.762" layer="92"/>
 <wire x1="-383.54" y1="86.36" x2="-383.54" y2="20.32" width="0.762" layer="92"/>
 <wire x1="-383.54" y1="20.32" x2="-83.82" y2="20.32" width="0.762" layer="92"/>
-<label x="-434.34" y="88.9" size="1.778" layer="95" rot="R180"/>
+<label x="-543.56" y="88.9" size="1.778" layer="95" rot="R180"/>
 <label x="-115.824" y="21.336" size="1.778" layer="95"/>
 <wire x1="-83.82" y1="20.32" x2="-83.82" y2="-165.1" width="0.762" layer="92"/>
 <wire x1="-83.82" y1="-165.1" x2="505.46" y2="-165.1" width="0.762" layer="92"/>
@@ -8738,19 +8738,19 @@ Source: www.kingbright.com</description>
 <net name="N$20" class="0">
 <segment>
 <wire x1="-406.4" y1="27.94" x2="-406.4" y2="187.96" width="1.27" layer="91" style="shortdash"/>
-<wire x1="-406.4" y1="187.96" x2="-523.24" y2="187.96" width="1.27" layer="91" style="shortdash"/>
-<wire x1="-523.24" y1="187.96" x2="-523.24" y2="27.94" width="1.27" layer="91" style="shortdash"/>
-<wire x1="-523.24" y1="27.94" x2="-406.4" y2="27.94" width="1.27" layer="91" style="shortdash"/>
+<wire x1="-406.4" y1="187.96" x2="-629.92" y2="187.96" width="1.27" layer="91" style="shortdash"/>
+<wire x1="-629.92" y1="187.96" x2="-629.92" y2="27.94" width="1.27" layer="91" style="shortdash"/>
+<wire x1="-629.92" y1="27.94" x2="-406.4" y2="27.94" width="1.27" layer="91" style="shortdash"/>
 </segment>
 </net>
 <net name="STROBE_SYNC" class="0">
 <segment>
 <pinref part="POSI-STROBE" gate="G$1" pin="SYNC"/>
-<wire x1="-495.3" y1="104.14" x2="-388.62" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-604.52" y1="104.14" x2="-388.62" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-388.62" y1="104.14" x2="-388.62" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-388.62" y1="15.24" x2="-86.36" y2="15.24" width="0.1524" layer="91"/>
 <label x="-115.824" y="15.748" size="1.778" layer="95"/>
-<label x="-471.424" y="104.902" size="1.778" layer="95"/>
+<label x="-580.644" y="104.902" size="1.778" layer="95"/>
 <wire x1="-86.36" y1="15.24" x2="-86.36" y2="-167.64" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="-167.64" x2="505.46" y2="-167.64" width="0.1524" layer="91"/>
 <label x="297.18" y="-166.37" size="1.27" layer="95" rot="R180"/>
@@ -8758,20 +8758,20 @@ Source: www.kingbright.com</description>
 </net>
 <net name="B$3" class="0">
 <segment>
-<wire x1="-449.58" y1="86.36" x2="-454.66" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="-454.66" y1="86.36" x2="-457.2" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-558.8" y1="86.36" x2="-563.88" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-563.88" y1="86.36" x2="-566.42" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="PITCH_TRIM" gate="G$1" pin="WHITE_GREEN"/>
-<wire x1="-457.2" y1="88.9" x2="-464.82" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-566.42" y1="88.9" x2="-574.04" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="PITCH_TRIM" gate="G$1" pin="WHITE_ORANGE"/>
-<wire x1="-449.58" y1="86.36" x2="-464.82" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-558.8" y1="86.36" x2="-574.04" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-449.58" y1="86.36" x2="-454.66" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="-454.66" y1="86.36" x2="-457.2" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-558.8" y1="86.36" x2="-563.88" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-563.88" y1="86.36" x2="-566.42" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="PITCH_TRIM" gate="G$1" pin="WHITE_BLUE"/>
-<wire x1="-457.2" y1="83.82" x2="-464.82" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-566.42" y1="83.82" x2="-574.04" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="X-FEED_CONTACTOR" class="0">
@@ -8793,32 +8793,32 @@ Source: www.kingbright.com</description>
 </net>
 <net name="TAIL_STROBE" class="0">
 <segment>
-<wire x1="-472.44" y1="109.22" x2="-477.52" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="-477.52" y1="109.22" x2="-480.06" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="-581.66" y1="109.22" x2="-586.74" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-586.74" y1="109.22" x2="-589.28" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="POSI-STROBE" gate="G$1" pin="POSITION"/>
-<wire x1="-480.06" y1="111.76" x2="-495.3" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="-589.28" y1="111.76" x2="-604.52" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="POSI-STROBE" gate="G$1" pin="STROBE"/>
-<wire x1="-472.44" y1="109.22" x2="-495.3" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-581.66" y1="109.22" x2="-604.52" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-472.44" y1="109.22" x2="-477.52" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="-477.52" y1="109.22" x2="-480.06" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-581.66" y1="109.22" x2="-586.74" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-586.74" y1="109.22" x2="-589.28" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="POSI-STROBE" gate="G$1" pin="GND"/>
-<wire x1="-480.06" y1="106.68" x2="-495.3" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-589.28" y1="106.68" x2="-604.52" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B$2" class="0">
 <segment>
-<wire x1="-449.58" y1="93.98" x2="-452.12" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-452.12" y1="93.98" x2="-454.66" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-558.8" y1="93.98" x2="-561.34" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-561.34" y1="93.98" x2="-563.88" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="PITCH_TRIM" gate="G$1" pin="MOTOR2"/>
-<wire x1="-454.66" y1="91.44" x2="-464.82" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-563.88" y1="91.44" x2="-574.04" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="PITCH_TRIM" gate="G$1" pin="MOTOR1"/>
-<wire x1="-449.58" y1="93.98" x2="-464.82" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-558.8" y1="93.98" x2="-574.04" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="PITCH" gate="G$1" pin="TRIM_OUT1"/>
